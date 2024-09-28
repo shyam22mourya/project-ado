@@ -1,7 +1,6 @@
 if(process.env.NODE_ENV !="production"){
   require("dotenv").config() ; 
 }
- console.log(process.env.SECRET);
 
 const express = require("express");
 const app = express();
@@ -60,10 +59,6 @@ app.engine("ejs", ejsMate);
 app.use(express.static(path.join(__dirname, "/public")));
 
 
-
-app.get("/", (req, res) => {
-  res.send("Hi, I am root");
-});
 
 
 // section option 

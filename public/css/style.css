@@ -116,3 +116,54 @@
      padding-left: 0;
      padding-right: 0;
  }
+
+ /* map */
+
+ #map {
+     height: 400px;
+     width: 80vh;
+ }
+
+
+ /*  Filters  */
+
+ #filters {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+
+ }
+
+ .filter {
+     text-align: center;
+     margin-right: 2rem;
+     margin-top: 2rem;
+     opacity: 0.7;
+ }
+
+ .filter:hover {
+     opacity: 1;
+     cursor: pointer;
+     text-decoration: solid;
+ }
+
+ .filter p {
+     font-size: 0.8rem;
+
+ }
+
+ .filter i {
+     font-size: 1.5rem;
+ }
+
+ .tax-info {
+     display: none;
+ }
+
+ .Tax-toggle {
+     border: 1px solid black;
+     border-radius: 1rem;
+     height: 3rem;
+     padding: 0.8rem;
+     margin-left: 2rem;
+ }
